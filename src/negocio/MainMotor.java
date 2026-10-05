@@ -17,15 +17,16 @@ public class MainMotor {
         motor2.setEncendido(true);
 
         System.out.println("> " + motor1.getNombre());
-        System.out.println("- " + motor1.getPotencia());
-        System.out.println("- " + motor1.getVelocidad());
-        System.out.println("- " + motor1.getEncendido());
+        System.out.println("-Potencia: " + motor1.getPotencia());
+        System.out.println("-Velocidad: " + motor1.getVelocidad());
+        System.out.println("-Encendido: " + motor1.getEncendido());
 
         System.out.println("---------------------");
+        motor2.apagar();
         System.out.println("> " + motor2.getNombre());
-        System.out.println("- " + motor2.getPotencia());
-        System.out.println("- " + motor2.getVelocidad());
-        System.out.println("- " + motor2.getEncendido());
+        System.out.println("-Potencia: " + motor2.getPotencia());
+        System.out.println("-Velocidad " + motor2.getVelocidad());
+        System.out.println("-Encendido: " + motor2.getEncendido());
 
 
 

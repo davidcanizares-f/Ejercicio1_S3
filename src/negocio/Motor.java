@@ -67,7 +67,7 @@ public class Motor {
     void apagar(){
         if(encendido){
             encendido = false;
-            velocidad = 0;
+            //velocidad = 0;
             System.out.println("[!] El " + nombre + " fue apagado.");
         } else {
             System.out.println("[!] El " + nombre + " ya fue apagado.");
